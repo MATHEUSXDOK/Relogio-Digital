@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    background: url("./Imagens/Sunny.jpg") no-repeat center center;
+    background-size: cover;
+    background-position: 65% 55%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.clock-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.clock-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #ffcc00;
+    text-align: center;
+    text-shadow: 2px 2px 8px #000;
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+
+/* Box do relógio */
+.clock {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100px;
+    color: #ffcc00;
+    background: rgba(0, 0, 0, 0.6);
+    border: 3px solid #ffcc00;
+    border-radius: 20px;
+    padding: 30px 60px;
+    text-align: center;
+    box-shadow: 0 0 20px #ffcc00;
+    letter-spacing: -5px;
+    text-shadow: 2px 2px 8px #000;
+    width: 8ch; 
+    display: flex;
+    justify-content: center;
+    font-variant-numeric: tabular-nums;
+}
+
+.time {
+    font-variant-numeric: tabular-nums;
+}

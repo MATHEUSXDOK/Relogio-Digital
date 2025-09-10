@@ -7,8 +7,6 @@ const updateTime = () => {
     const timeElements = document.querySelector(".time");
     timeElements.textContent = `${hours} : ${minutes} : ${seconds}`;
 
-    setInterval(updateTime, 1000)
-
 }
 
 window.addEventListener("load", () => {
@@ -16,4 +14,3 @@ window.addEventListener("load", () => {
     setInterval(updateTime, 1000);
 
 });
-
